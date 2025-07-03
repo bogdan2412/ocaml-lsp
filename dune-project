@@ -75,8 +75,9 @@ possible and does not make any assumptions about IO.
 
 (package
  (name jsonrpc)
- (synopsis "Jsonrpc protocol implemenation")
+ (synopsis "Jsonrpc protocol implementation")
  (description "See https://www.jsonrpc.org/specification")
  (depends
+  yojson
   (ocaml (>= 4.08))
   (odoc :with-doc)))
